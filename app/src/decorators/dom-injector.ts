@@ -10,7 +10,6 @@ export function domInjector(seletor: string) {
             target,
             propertyKey,
             { get: getter })
-            
     }
 }
 
